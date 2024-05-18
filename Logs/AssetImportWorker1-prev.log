@@ -1,0 +1,348 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Prototype 5/Prototype 5
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50236
+Successfully changed project path to: E:/Prototype 5/Prototype 5
+E:/Prototype 5/Prototype 5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10756] Host "[IP] 192.168.1.209 [Port] 0 [Flags] 2 [Guid] 4269723229 [EditorId] 4269723229 [Version] 1048832 [Id] WindowsEditor(7,Apo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10756] Host "[IP] 192.168.1.209 [Port] 0 [Flags] 2 [Guid] 4269723229 [EditorId] 4269723229 [Version] 1048832 [Id] WindowsEditor(7,Apo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Prototype 5/Prototype 5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5966 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004265 seconds.
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3556.
+Memory consumption went from 121.4 MB to 121.3 MB.
+Total: 2.759300 ms (FindLiveObjects: 0.317000 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.269300 ms  DeleteObjects: 0.095700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2538.539074 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d3ca261283d171d458753c27f6c4e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d3ca261283d171d458753c27f6c4e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a0fe720cf757678a42037fe4c92494') in 0.002660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.272844 seconds.
+  path: Assets/Course Library/Props/Balls/Ball_American_01.prefab
+  artifactKey: Guid(dcdfdede07642ee44ad5cfe22399dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Balls/Ball_American_01.prefab using Guid(dcdfdede07642ee44ad5cfe22399dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e72035203de1415074ff3555b146c1') in 0.288656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Course Library/Particles/Explosion_Grey.prefab
+  artifactKey: Guid(ac10190cf200c4f7e881ca8e41d3d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Particles/Explosion_Grey.prefab using Guid(ac10190cf200c4f7e881ca8e41d3d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab11f313f8d36eb2e5e0209f31c0dc4') in 0.020580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Course Library/Props/Balls/Ball_Cricket.prefab
+  artifactKey: Guid(98b342dd18e69a346a6594879cc0c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Balls/Ball_Cricket.prefab using Guid(98b342dd18e69a346a6594879cc0c5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c5bd3b07dcde0ffa94191214506a1b') in 0.018905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Course Library/Props/Food/Food_Cookie_01.prefab
+  artifactKey: Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Food/Food_Cookie_01.prefab using Guid(10d25933610222845ad3760a855829c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88ba24e3f1546ff2cea8c4a9b779bc6') in 0.074393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Course Library/Props/Food/Food_Sandwich_01.prefab
+  artifactKey: Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Food/Food_Sandwich_01.prefab using Guid(5b10c1fadcedc4347b929c94cb50d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f904913c15433a57d20e1bb9ef7d875d') in 0.007663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Course Library/Props/Other/Barrel_02.prefab
+  artifactKey: Guid(f750d5f061e724f4c827ab6b376e2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Other/Barrel_02.prefab using Guid(f750d5f061e724f4c827ab6b376e2550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ad87a28689c147e1cceb1740ce0423') in 0.012393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Course Library/Props/Food/Food_Organic_Pear_02.prefab
+  artifactKey: Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Food/Food_Organic_Pear_02.prefab using Guid(4949a22a2c444b0459d7289aae77be28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9dd05f7710526c9f984f4bc3061934') in 0.006153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Course Library/Particles/Explosion_Brown.prefab
+  artifactKey: Guid(70a1428e5f80a4866a779ef1ab9fe521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Particles/Explosion_Brown.prefab using Guid(70a1428e5f80a4866a779ef1ab9fe521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada14441560ed457f8d24b23a11c7fce') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Course Library/Props/Food/Food_Organic_Apple_01.prefab
+  artifactKey: Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Food/Food_Organic_Apple_01.prefab using Guid(c13306d1f1d9a1a489199ef77f9dba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1c6e4f2cd52c60c05e71988a06612c') in 0.005647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Course Library/Particles/Explosion_Purple.prefab
+  artifactKey: Guid(ef43e5aef41c142fb85a7658a397dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Particles/Explosion_Purple.prefab using Guid(ef43e5aef41c142fb85a7658a397dc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc7f21d9b68510f75233a7c38b3d31e') in 0.005302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/Particles/Explosion_Orange.prefab
+  artifactKey: Guid(ec46c8c4a3cbc429382ee48bd9169b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Particles/Explosion_Orange.prefab using Guid(ec46c8c4a3cbc429382ee48bd9169b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb46281aa6ee7f3bf8d792ec5af14951') in 0.006243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Course Library/Particles/Explosion_Red.prefab
+  artifactKey: Guid(745208c9d6e104225bd99e1ab894e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Particles/Explosion_Red.prefab using Guid(745208c9d6e104225bd99e1ab894e3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6d741e21927f27e86447b74597dec6') in 0.005222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Course Library/Props/Bad/Skull_01.prefab
+  artifactKey: Guid(1aeca1bd9f707c245a80c7f103d235f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Bad/Skull_01.prefab using Guid(1aeca1bd9f707c245a80c7f103d235f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7abd7e92458f81c05223599adc651') in 0.007137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Course Library/Props/Balls/Ball_Beachball.prefab
+  artifactKey: Guid(d9532b099f8dfb045844414b0b707bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Balls/Ball_Beachball.prefab using Guid(d9532b099f8dfb045844414b0b707bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137e1c47e358f738c14ad5bc40870be9') in 0.007318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Course Library/Props/Bad/SM_Prop_Bomb_01.prefab
+  artifactKey: Guid(666ff701b211d6440b7bd44aa7b3abfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Props/Bad/SM_Prop_Bomb_01.prefab using Guid(666ff701b211d6440b7bd44aa7b3abfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce4605938be5a88ed59710078a171b1') in 0.217445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 13.192116 seconds.
+  path: Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_03.png
+  artifactKey: Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_03.png using Guid(86507321c175292409cc422c5e33d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8849b1a5f552eb5ec81f3092b8c6a0') in 0.034306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_06.png
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_06.png using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60481c8699f2b5070faffe1b2b23b88') in 0.025776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_04.png
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/PolygonPrototype_Texture_Grid_04.png using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9ebcfa49067ba41d1192f9621d5e15') in 0.017007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
