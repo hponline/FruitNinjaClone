@@ -37,14 +37,23 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        if (!gameObject.CompareTag("Bad"))
+        {
+            gameManager.GameOver();
+        }
+        
     }
 
     // Maus ile yok etme & Score tablosu güncelleme
     private void OnMouseDown()
     {
-        Destroy(gameObject);
-        Instantiate(exlosionParticle, transform.position, exlosionParticle.transform.rotation);
-        gameManager.UpdateScore(pointValue);
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            Instantiate(exlosionParticle, transform.position, exlosionParticle.transform.rotation);
+            gameManager.UpdateScore(pointValue);
+        }
+        
     }
 
     // Yukarý Fýrlatýlan objeler

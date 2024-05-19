@@ -3,21 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI gameOverText;
+    public Button restart;
+    public bool isGameActive;
     private int score;
     private float spawnRate = 1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SpawnTarget());
+        isGameActive = true;
         score = 0;
 
+        StartCoroutine(SpawnTarget());
         UpdateScore(0);
+
     }
 
     // Update is called once per frame
@@ -29,14 +36,13 @@ public class GameManager : MonoBehaviour
     // Hedef Spawn
     IEnumerator SpawnTarget()
     {
-        while (true)
+        while (isGameActive)
         {
-            
+
             int index = Random.Range(0, targets.Count);
             Instantiate(targets[index]);
             yield return new WaitForSeconds(spawnRate);
 
-            
         }
     }
 
@@ -45,5 +51,19 @@ public class GameManager : MonoBehaviour
     {
         score += scoreToAdd;
         scoreText.text = "Score: " + score;
+    }
+
+    // Game over
+    public void GameOver()
+    {
+        restart.gameObject.SetActive(true);
+        gameOverText.gameObject.SetActive(true);
+        isGameActive = false;
+    }
+
+    // Restart
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
