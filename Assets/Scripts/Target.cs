@@ -15,7 +15,7 @@ public class Target : MonoBehaviour
     public int pointValue;
     public ParticleSystem exlosionParticle;
 
-    // Start is called before the first frame update
+   
     void Start()
     {
         targetRb = GetComponent<Rigidbody>();
@@ -27,7 +27,7 @@ public class Target : MonoBehaviour
         transform.position = RandomSpawnPos();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
