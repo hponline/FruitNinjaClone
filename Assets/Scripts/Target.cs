@@ -37,9 +37,9 @@ public class Target : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
-        if (!gameObject.CompareTag("Bad"))
+        if (!gameObject.CompareTag("Bad") && gameManager.isGameActive)
         {
-            gameManager.GameOver();
+            gameManager.UpdateLives(-1);
         }
         
     }
@@ -72,5 +72,15 @@ public class Target : MonoBehaviour
     float RandomTorque()
     {
         return Random.Range(-maxTorque, maxTorque);
+    }
+
+    public void DestroyTarget()
+    {
+        if (gameManager.isGameActive)
+        {
+            Destroy(gameObject);
+            Instantiate(exlosionParticle, transform.position, exlosionParticle.transform.rotation);
+            gameManager.UpdateScore(pointValue);
+        }
     }
 }
