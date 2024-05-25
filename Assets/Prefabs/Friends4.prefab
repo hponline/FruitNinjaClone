@@ -146,5 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca9e216030e4914f84fae0059800682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  floatingTextPrefabs: {fileID: 8427873285938207036, guid: ee59244d9d8911a4c899d0406c8db677, type: 3}
+  destroyTime: 2
   pointValue: 10
   exlosionParticle: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb, type: 3}

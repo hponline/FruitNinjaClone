@@ -155,10 +155,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targets:
   - {fileID: 5813084337294988209, guid: decc10ea5926b93498a87508314a9a24, type: 3}
+  - {fileID: 2862469462143301458, guid: 3c0b9b9051b777a46afc320a89189551, type: 3}
   - {fileID: 5032051211489028109, guid: 917e8b7e62c0b4945a4cd00493a49185, type: 3}
   - {fileID: 1979452031655267106, guid: 3cb7d69bbb2f4494996a49953fbbc0f8, type: 3}
   - {fileID: 1371897088309401116, guid: 3b8b625a4d7e7a04cbfd288e21e3c28f, type: 3}
   - {fileID: 4799058839588214654, guid: 5ea093e5c30f2b14e8d7b89753bef9a0, type: 3}
+  - {fileID: 2109096218878133093, guid: 57a48920d039f0b43a59b5475551a1ef, type: 3}
   scoreText: {fileID: 1267965575}
   gameOverText: {fileID: 1046473771}
   livesText: {fileID: 235344390}
@@ -193,7 +195,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 491766ece960b0c4984c1e108d721713, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.119
   m_Pitch: 1
   Loop: 1
   Mute: 0

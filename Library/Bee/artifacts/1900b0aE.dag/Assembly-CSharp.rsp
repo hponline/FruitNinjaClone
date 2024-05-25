@@ -355,6 +355,7 @@
 "Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
 "Assets/Scripts/ClickAndSwipe.cs"
 "Assets/Scripts/DiffucultyButton.cs"
+"Assets/Scripts/FloatingTextClear.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Target.cs"
 -langversion:9.0

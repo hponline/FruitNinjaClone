@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// TrailRenderer ve BoxCollider kullanýmýný zorunlu kýlar
 [RequireComponent(typeof(TrailRenderer), typeof(BoxCollider))]
 public class ClickAndSwipe : MonoBehaviour
 {
@@ -17,11 +18,13 @@ public class ClickAndSwipe : MonoBehaviour
     {
         if (gameManager.isGameActive)
         {
+            // Mausun sol týkýna basýlýrsa swiping true
             if (Input.GetMouseButtonDown(0))
             {
                 swiping = true;
                 UpdateComponents();
             }
+            // Mausun sol týký býrakýlýrsa swiping false
             else if (Input.GetMouseButtonUp(0))
             {
                 swiping = false;
@@ -35,6 +38,7 @@ public class ClickAndSwipe : MonoBehaviour
         }
     }
 
+    // bir defa çalýþýr
     void Awake()
     {
         cam = Camera.main;
@@ -46,13 +50,14 @@ public class ClickAndSwipe : MonoBehaviour
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
-    
+    // ScreenToWorldPoint, Unity'de ekrandaki bir piksel koordinatýný oyun dünyasýndaki bir koordinata dönüþtürmek için kullanýlýr
     void UpdateMausePosition()
     {
         mausePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10.0f));
         transform.position = mausePos;
     }
 
+    // Eðer swiping true ise, trail ve col bileþenleri etkinleþtirilir.
     void UpdateComponents()
     {
         trail.enabled = swiping;
