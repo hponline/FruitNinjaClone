@@ -20,12 +20,6 @@ public class DiffucultyButton : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // Zorluk deðiþtirme
     void SetDiffuculty()
     {

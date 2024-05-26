@@ -8,6 +8,7 @@ public class Target : MonoBehaviour
     private GameManager gameManager;
     public GameObject floatingTextPrefabs;
     public ParticleSystem exlosionParticle;
+    
 
     private float minSpeed = 12;
     private float maxSpeed = 16;
@@ -30,12 +31,7 @@ public class Target : MonoBehaviour
 
         transform.position = RandomSpawnPos();
     }
-
-
-    void Update()
-    {
-        
-    }
+ 
 
     // Aþaðý Sýnýr
     private void OnTriggerEnter(Collider other)
@@ -58,6 +54,7 @@ public class Target : MonoBehaviour
                 gameManager.UpdateLives(-1);
             }
             Destroy(gameObject);
+            gameManager.Fire();
             ShowFloatingText();
             Instantiate(exlosionParticle, transform.position, exlosionParticle.transform.rotation);
             gameManager.UpdateScore(pointValue);
@@ -92,6 +89,7 @@ public class Target : MonoBehaviour
             {
                 gameManager.UpdateLives(-1);
             }
+            gameManager.Fire();
             Destroy(gameObject);
             ShowFloatingText();
             Instantiate(exlosionParticle, transform.position, exlosionParticle.transform.rotation);
@@ -111,13 +109,13 @@ public class Target : MonoBehaviour
             {
                 // Puan deðerini floating text'in metnine ekle
                 textMesh.text = "+" + pointValue.ToString();
+                textMesh.color = Color.green;
             }
             else
             {
                 textMesh.text = pointValue.ToString();
-            }
-
-            
+                
+            }            
         }
         else
         {

@@ -16,16 +16,21 @@ public class GameManager : MonoBehaviour
     public GameObject pauseScreen;
     public Button restart;
     public bool isGameActive;
+    public AudioClip fireSound;
+    private AudioSource audioSource;
+
 
     private bool paused;
     private int score;
     private float spawnRate = 1.0f;
     private int lives;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
 
     }
 
@@ -118,6 +123,14 @@ public class GameManager : MonoBehaviour
             pauseScreen.gameObject.SetActive(false);
             Time.timeScale = 1;
             isGameActive = true;
+        }
+    }
+
+    public void Fire()
+    {
+        if (audioSource)
+        {
+            audioSource.PlayOneShot(fireSound);
         }
     }
 }
