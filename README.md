@@ -1,6 +1,9 @@
 # FruitNinjaClone
 
 Jr. Unity developer Eğitiminde 5ci projem<br> 
+
+<h3>Oyunu oynamak için >>> https://hponline.itch.io/fruitninjaclone</h3>
+
 # Oynanış
 ESC tuşu ile oyunu durdurabilirsiniz.<br>
 Oynanış olarak maus ile tıklayabilir veya tıklayıp basılı kaydırma yapabilirsiniz.
